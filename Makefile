@@ -41,6 +41,8 @@ prebuilt: \
 	prebuilt/armeabi-v7a/lib/android-26/minicap.so \
 	prebuilt/armeabi-v7a/lib/android-27/minicap.so \
 	prebuilt/armeabi-v7a/lib/android-28/minicap.so \
+	prebuilt/armeabi-v7a/lib/android-29/minicap.so \
+	prebuilt/armeabi-v7a/lib/android-30/minicap.so \
 	prebuilt/arm64-v8a/bin/minicap \
 	prebuilt/arm64-v8a/bin/minicap-nopie \
 	prebuilt/arm64-v8a/lib/android-21/minicap.so \
@@ -51,6 +53,8 @@ prebuilt: \
 	prebuilt/arm64-v8a/lib/android-26/minicap.so \
 	prebuilt/arm64-v8a/lib/android-27/minicap.so \
 	prebuilt/arm64-v8a/lib/android-28/minicap.so \
+	prebuilt/arm64-v8a/lib/android-29/minicap.so \
+	prebuilt/arm64-v8a/lib/android-30/minicap.so \
 	prebuilt/x86/bin/minicap \
 	prebuilt/x86/bin/minicap-nopie \
 	prebuilt/x86/lib/android-14/minicap.so \
@@ -67,6 +71,8 @@ prebuilt: \
 	prebuilt/x86/lib/android-26/minicap.so \
 	prebuilt/x86/lib/android-27/minicap.so \
 	prebuilt/x86/lib/android-28/minicap.so \
+	prebuilt/x86/lib/android-29/minicap.so \
+	prebuilt/x86/lib/android-30/minicap.so \
 	prebuilt/x86_64/bin/minicap \
 	prebuilt/x86_64/bin/minicap-nopie \
 	prebuilt/x86_64/lib/android-21/minicap.so \
@@ -77,6 +83,8 @@ prebuilt: \
 	prebuilt/x86_64/lib/android-26/minicap.so \
 	prebuilt/x86_64/lib/android-27/minicap.so \
 	prebuilt/x86_64/lib/android-28/minicap.so \
+	prebuilt/x86_64/lib/android-29/minicap.so \
+	prebuilt/x86_64/lib/android-30/minicap.so \
 
 prebuilt/%/bin/minicap: libs/%/minicap
 	mkdir -p $(@D)
